@@ -67,12 +67,12 @@ A global `.gitignore` file should be placed at the root of the repository to pre
 
 ### Recommended Root `.gitignore` Block
 ```gitignore
-# Object files and structural artifacts
+# ─── Object files and structural artifacts ─────────────────
 *.o
 *.a
 *.so
 
-# Compiled project executables
+# ─── Compiled project executables ──────────────────────────
 01-mini-shell-v0/mini_shell_v0
 02-mini-shell-v1-cd/mini_shell
 03-mini-shell-v2-redirections/mini_shell_redir
@@ -81,21 +81,29 @@ A global `.gitignore` file should be placed at the root of the repository to pre
 07-tcp-server/tcp_server
 08-tcp-client-server/tcp_client
 08-tcp-client-server/tcp_server
+09-select-pipes/select_pipes
+11-file-locking-fcntl/verrou
 16-gdbm-database/gdbm_demo
+17-hash-table-basic/hash_table
 18-dynamic-linking-dlopen/dynload
+19-pty-terminal/telshell
+20-signal-handling-advanced/signals
+20-signal-handling-advanced/sigqueue_demo
 21-performance-measurement/getrusage_demo
 22-https-server/http_server
 23-threads-basic/parallel_sum
 24-thread-mutex/mutex_threads
 25-thread-condition-variables/prod_cons
 
-# Runtime testing data and localized dumps
+# ─── Runtime testing data and localized dumps ──────────────
 *.gdbm
 verrou.txt
 test.gdbm
 c_files.txt
+count.txt
+*.log
 
-# Editor profiles / Operating System files
+# ─── Editor profiles / Operating System files ──────────────
 *.swp
 *~
 .DS_Store
