@@ -1,0 +1,6 @@
+name=pawpaw
+firstname=marc
+game=mario
+fun=crazy
+test=Ok
+price=200
